@@ -15,3 +15,15 @@
    margin: auto;
  }
 
+#cabecera {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+  background-color: #A2D9CE;
+  font-size: 22px;
+  border: 1px solid salmon
+}
+strong {
+  font-size: 30px;
+}
