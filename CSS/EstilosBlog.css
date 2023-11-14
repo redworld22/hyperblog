@@ -1,5 +1,5 @@
  body {
-    color: #333;
+    color: #1e1f24;
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
@@ -7,24 +7,39 @@
     padding: 0%;
  }
 
- #container {
-   width: 70%;
-   padding: 1em;
-   text-align: left;
-   border: 1px solid blue;
-   margin: auto;
+ #cabecera {
+  background: #37488b;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em;
  }
 
-#cabecera {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  width: 80%;
-  padding: 1%;
-  background-color: #A2D9CE;
-  font-size: 22px;
-  border: 1px solid salmon
+ #cabecera #logo {
+  width: 20px;
+  vertical-align: middle;
+ }
+
+ #cabecera #tagline {
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-size: 0.8em;
+ }
+
+ #container {
+   width: 70%;
+   padding: 0;
+   text-align: left;
+   border: 1px solid #000;
+   margin: 0 auto;
+ }
+
+#container h1 {
+  font-size: 20px;
 }
-strong {
-  font-size: 30px;
+
+#post {
+  background: white;
+  padding: 1emls;
 }
