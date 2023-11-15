@@ -1,33 +1,5 @@
- body {
-    color: #333;
-    text-align: center;
-    font-family: "Arial";
-    font-size: 16px;
-    margin: 0%;
-    padding: 0%;
- }
+ 
 
- #container {
-   width: 70%;
-   padding: 1em;
-   text-align: left;
-   border: 1px solid blue;
-   margin: auto;
- }
-
-#cabecera {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  width: 80%;
-  padding: 1%;
-  background-color: #A2D9CE;
-  font-size: 22px;
-  border: 1px solid salmon
-}
-strong {
-  font-size: 30px;
-}
 #footer {
   background: #777;
   color: white;
