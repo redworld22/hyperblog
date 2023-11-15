@@ -1,3 +1,4 @@
+
  body {
     color: #1e1f24;
     text-align: center;
@@ -38,19 +39,15 @@
 #container h1 {
   font-size: 20px;
 }
-<<<<<<< HEAD
 
 #post {
   background: white;
   padding: 1emls;
-=======
-strong {
-  font-size: 30px;
 }
+
 #footer {
   background: #777;
   color: white;
   text-align: center;
   padding: 0.5em;
->>>>>>> footer
 }
